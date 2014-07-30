@@ -924,7 +924,8 @@ static ssize_t fsg_store_file(struct device *dev, struct device_attribute *attr,
 	struct rw_semaphore	*filesem = dev_get_drvdata(dev);
 	int		rc = 0;
 
-
+#ifndef CONFIG_CUST_PANTECH_H
+// P12125 20121219
 #ifndef CONFIG_USB_ANDROID_MASS_STORAGE
 	/* disabled in android because we need to allow closing the backing file
 	 * if the media was removed
@@ -934,6 +935,7 @@ static ssize_t fsg_store_file(struct device *dev, struct device_attribute *attr,
 		return -EBUSY;				/* "Door is locked" */
 	}
 #endif
+#endif /* CONFIG_CUST_PANTECH_H */
 
 	/* Remove a trailing newline */
 	if (count > 0 && buf[count-1] == '\n')

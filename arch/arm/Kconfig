@@ -1075,116 +1075,116 @@ endchoice
 # Kconfigs may be included either alphabetically (according to the
 # plat- suffix) or along side the corresponding mach-* source.
 #
-source "arch/arm/mach-at91/Kconfig"
-
-source "arch/arm/mach-bcmring/Kconfig"
-
-source "arch/arm/mach-clps711x/Kconfig"
-
-source "arch/arm/mach-cns3xxx/Kconfig"
-
-source "arch/arm/mach-davinci/Kconfig"
-
-source "arch/arm/mach-dove/Kconfig"
-
-source "arch/arm/mach-ep93xx/Kconfig"
-
-source "arch/arm/mach-footbridge/Kconfig"
-
-source "arch/arm/mach-gemini/Kconfig"
-
-source "arch/arm/mach-h720x/Kconfig"
-
-source "arch/arm/mach-integrator/Kconfig"
-
-source "arch/arm/mach-iop32x/Kconfig"
-
-source "arch/arm/mach-iop33x/Kconfig"
-
-source "arch/arm/mach-iop13xx/Kconfig"
-
-source "arch/arm/mach-ixp4xx/Kconfig"
-
-source "arch/arm/mach-ixp2000/Kconfig"
-
-source "arch/arm/mach-ixp23xx/Kconfig"
-
-source "arch/arm/mach-kirkwood/Kconfig"
-
-source "arch/arm/mach-ks8695/Kconfig"
-
-source "arch/arm/mach-lpc32xx/Kconfig"
+# source "arch/arm/mach-at91/Kconfig"
+# 
+# source "arch/arm/mach-bcmring/Kconfig"
+# 
+# source "arch/arm/mach-clps711x/Kconfig"
+# 
+# source "arch/arm/mach-cns3xxx/Kconfig"
+# 
+# source "arch/arm/mach-davinci/Kconfig"
+# 
+# source "arch/arm/mach-dove/Kconfig"
+# 
+# source "arch/arm/mach-ep93xx/Kconfig"
+# 
+# source "arch/arm/mach-footbridge/Kconfig"
+# 
+# source "arch/arm/mach-gemini/Kconfig"
+# 
+# source "arch/arm/mach-h720x/Kconfig"
+# 
+# source "arch/arm/mach-integrator/Kconfig"
+# 
+# source "arch/arm/mach-iop32x/Kconfig"
+# 
+# source "arch/arm/mach-iop33x/Kconfig"
+# 
+# source "arch/arm/mach-iop13xx/Kconfig"
+# 
+# source "arch/arm/mach-ixp4xx/Kconfig"
+# 
+# source "arch/arm/mach-ixp2000/Kconfig"
+# 
+# source "arch/arm/mach-ixp23xx/Kconfig"
+# 
+# source "arch/arm/mach-kirkwood/Kconfig"
+# 
+# source "arch/arm/mach-ks8695/Kconfig"
+# 
+# source "arch/arm/mach-lpc32xx/Kconfig"
 
 source "arch/arm/mach-msm/Kconfig"
 
-source "arch/arm/mach-mv78xx0/Kconfig"
-
-source "arch/arm/plat-mxc/Kconfig"
-
-source "arch/arm/mach-mxs/Kconfig"
-
-source "arch/arm/mach-netx/Kconfig"
-
-source "arch/arm/mach-nomadik/Kconfig"
-source "arch/arm/plat-nomadik/Kconfig"
-
-source "arch/arm/plat-omap/Kconfig"
-
-source "arch/arm/mach-omap1/Kconfig"
-
-source "arch/arm/mach-omap2/Kconfig"
-
-source "arch/arm/mach-orion5x/Kconfig"
-
-source "arch/arm/mach-pxa/Kconfig"
-source "arch/arm/plat-pxa/Kconfig"
-
-source "arch/arm/mach-mmp/Kconfig"
-
-source "arch/arm/mach-realview/Kconfig"
-
-source "arch/arm/mach-sa1100/Kconfig"
-
-source "arch/arm/plat-samsung/Kconfig"
-source "arch/arm/plat-s3c24xx/Kconfig"
-source "arch/arm/plat-s5p/Kconfig"
-
-source "arch/arm/plat-spear/Kconfig"
-
-source "arch/arm/mach-s3c24xx/Kconfig"
-if ARCH_S3C24XX
-source "arch/arm/mach-s3c2412/Kconfig"
-source "arch/arm/mach-s3c2440/Kconfig"
-endif
-
-if ARCH_S3C64XX
-source "arch/arm/mach-s3c64xx/Kconfig"
-endif
-
-source "arch/arm/mach-s5p64x0/Kconfig"
-
-source "arch/arm/mach-s5pc100/Kconfig"
-
-source "arch/arm/mach-s5pv210/Kconfig"
-
-source "arch/arm/mach-exynos/Kconfig"
-
-source "arch/arm/mach-shmobile/Kconfig"
-
-source "arch/arm/mach-tegra/Kconfig"
-
-source "arch/arm/mach-u300/Kconfig"
-
-source "arch/arm/mach-ux500/Kconfig"
-
-source "arch/arm/mach-versatile/Kconfig"
-
-source "arch/arm/mach-vexpress/Kconfig"
-source "arch/arm/plat-versatile/Kconfig"
-
-source "arch/arm/mach-vt8500/Kconfig"
-
-source "arch/arm/mach-w90x900/Kconfig"
+# source "arch/arm/mach-mv78xx0/Kconfig"
+# 
+# source "arch/arm/plat-mxc/Kconfig"
+# 
+# source "arch/arm/mach-mxs/Kconfig"
+# 
+# source "arch/arm/mach-netx/Kconfig"
+# 
+# source "arch/arm/mach-nomadik/Kconfig"
+# source "arch/arm/plat-nomadik/Kconfig"
+# 
+# source "arch/arm/plat-omap/Kconfig"
+# 
+# source "arch/arm/mach-omap1/Kconfig"
+# 
+# source "arch/arm/mach-omap2/Kconfig"
+# 
+# source "arch/arm/mach-orion5x/Kconfig"
+# 
+# source "arch/arm/mach-pxa/Kconfig"
+# source "arch/arm/plat-pxa/Kconfig"
+# 
+# source "arch/arm/mach-mmp/Kconfig"
+# 
+# source "arch/arm/mach-realview/Kconfig"
+# 
+# source "arch/arm/mach-sa1100/Kconfig"
+# 
+# source "arch/arm/plat-samsung/Kconfig"
+# source "arch/arm/plat-s3c24xx/Kconfig"
+# source "arch/arm/plat-s5p/Kconfig"
+# 
+# source "arch/arm/plat-spear/Kconfig"
+# 
+# source "arch/arm/mach-s3c24xx/Kconfig"
+# if ARCH_S3C24XX
+# source "arch/arm/mach-s3c2412/Kconfig"
+# source "arch/arm/mach-s3c2440/Kconfig"
+# endif
+# 
+# if ARCH_S3C64XX
+# source "arch/arm/mach-s3c64xx/Kconfig"
+# endif
+# 
+# source "arch/arm/mach-s5p64x0/Kconfig"
+# 
+# source "arch/arm/mach-s5pc100/Kconfig"
+# 
+# source "arch/arm/mach-s5pv210/Kconfig"
+# 
+# source "arch/arm/mach-exynos/Kconfig"
+# 
+# source "arch/arm/mach-shmobile/Kconfig"
+# 
+# source "arch/arm/mach-tegra/Kconfig"
+# 
+# source "arch/arm/mach-u300/Kconfig"
+# 
+# source "arch/arm/mach-ux500/Kconfig"
+# 
+# source "arch/arm/mach-versatile/Kconfig"
+# 
+# source "arch/arm/mach-vexpress/Kconfig"
+# source "arch/arm/plat-versatile/Kconfig"
+# 
+# source "arch/arm/mach-vt8500/Kconfig"
+# 
+# source "arch/arm/mach-w90x900/Kconfig"
 
 # Definitions to make life easier
 config ARCH_ACORN
@@ -2466,6 +2466,144 @@ config ARM_CPU_SUSPEND
 	def_bool PM_SLEEP
 
 endmenu
+
+#ifdef FEATURE_SKY_DS_KERNEL_CONFIG
+menu "SKY Data Kernel Configuration"
+
+config SKY_DS_DEFAULT_CONGESTION_CONTROL
+	bool "default congestion control setting"
+	default y
+	select TCP_CONG_ADVANCED
+	select DEFAULT_BIC
+	select TCP_CONG_BIC
+	help
+
+config DEFAULT_TCP_CONG
+	string
+	depends on SKY_DS_DEFAULT_CONGESTION_CONTROL
+	default "bic"
+	help
+
+config SKY_DS_TETHEER_MSS
+	bool "enable CONFIG_NETFILTER about TCP MSS"
+	default y	
+	select NETFILTER_XT_TARGET_TCPMSS
+	select NETFILTER_XT_MATCH_TCPMSS	
+	help
+
+config SKY_DS_VPN
+	bool "VPN"
+	default y
+	select NET_KEY
+	select INET_ESP
+	select INET_IPCOMP
+	select XFRM
+	select XFRM_USER
+	select INET_XFRM_MODE_TRANSPORT
+	select INET_XFRM_MODE_TUNNEL
+	select CRYPTO
+	select CRYPTO_HMAC
+	select CRYPTO_XCBC
+	select CRYPTO_NULL
+	select CRYPTO_MD5
+	select CRYPTO_SHA1
+	select CRYPTO_DES
+	select CRYPTO_AES
+	select CRYPTO_DEFLATE
+	select IP_ADVANCED_ROUTER
+	select IP_MULTIPLE_TABLES
+	select PPP
+	select PPP_ASYNC
+	select PPP_SYNC_TTY
+	select PPP_DEFLATE
+	select PPP_BSDCOMP
+	select PPP_MPPE
+	select PPPOE
+	select PPPOL2TP
+	select L2TP
+	select L2TP_V3
+	select L2TP_IP
+	select L2TP_ETH
+	select PPPOLAC
+	select PPPOPNS
+	help
+	
+config SKY_DS_IPSEC
+	bool "enable INET CONFIG for IP SEC"
+	default y
+	select INET_AH	
+	select INET_XFRM_TUNNEL
+	help
+	
+config SKY_DS_SUPPORT_TUN
+	bool "support for tun driver"
+	default y
+	select TUN
+	help
+	
+config SKY_DS_SUPPORT_BACKGROUND_TRFFIC_CONTROL_AGENT
+	bool "support for advanced netfilter"
+	default y
+	select NETFILTER_ADVANCED
+	help
+		
+config SKY_DS_CTS_LOCALHOST
+	bool "support for traffic statistic each uid"
+	default y
+	select UID_STAT
+	help
+
+config SKY_DS_BAM_ADAPTIVE_TIMER_OFF
+	bool "BAN ADAPTIVE TIMER DISABLE"	
+	default y
+	help
+	  DL Throughput
+	
+config SKY_DS_CHANGE_RNDIS_MTU
+	bool "changed rndis mtu size to 1440"
+	default y
+	help
+	
+config SKY_DS_ACCEPT_SIP_LAGRE_PACKET
+	bool "accept SIP packet over MTU size"
+	default y
+	help
+	
+config SKY_DS_TCP_INIFINITE_LOOP_BUG_FIX
+	bool "avoid infinite loop on recvmsg by tcp"
+	default y
+	help	
+
+config SKY_DS_KERNEL_CRASH_DUT_TO_NULL_POINTER
+	bool "kernel crash due to null pointer dereference security patch 2013-6432"
+	default y
+	help		
+
+config SKY_DS_OPTIMIZE_IPV6_ASSIGNMENT
+	bool "IPv6 Address Asignment"
+	default y
+	help
+	
+config SKY_DS_OPTIMIZE_IPV6_ASSIGNMENT_CRASH_FIX
+	bool "Prevent device from crashing"
+	depends on SKY_DS_OPTIMIZE_IPV6_ASSIGNMENT
+	default y
+	help
+	  Device crashed when optimizing IPv6 address assignment which means reducing assignment duration.
+	  It's crashed because 'ifa->idev' is null at 'if6_get_first' function.
+
+config SKY_DS_ANDROID_SECURITY_PATCH_CVE_2014_2851
+	bool "net: ipv4: current group_info should be put after using."
+	default y
+	help
+	  Plug a group_info refcount leak in ping_init. 
+	  group_info is only needed during initialization and 
+	  the code failed to release the reference on exit. 
+	  While here move grabbing the reference to a place 
+	  where it is actually needed.
+	  
+endmenu
+#endif /* FEATURE_SKY_DS_KERNEL_CONFIG */
 
 source "net/Kconfig"
 
